@@ -1,0 +1,24 @@
+{
+  "name": "qliro-assignment",
+  "version": "1.0.0",
+  "description": "Monty hall simulation",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniket2305/montyhall.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniket2305/montyhall/issues"
+  },
+  "homepage": "https://github.com/aniket2305/montyhall#readme",
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}

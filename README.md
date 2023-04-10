@@ -1,28 +1,40 @@
-Monty hall simulation
+# Monty hall simulation
 
 ## Available Scripts
 
-To run client
+To install dependency and build client
 
-### `cd client`
+`cd client`
 
-In the client directory, you can run:
+`npm install`
 
-### `npm start`
+`npm run build`
+
+To install dependency and build server
+
+`cd server`
+
+`npm install`
+
+`npm run build`
+
+To start client and server both
+
+In the root directory run
+
+`npm run dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm test`
+Server runs on [http://localhost:8000](http://localhost:8000)
+
+`npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-
-### `npm run eject`
+`npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 

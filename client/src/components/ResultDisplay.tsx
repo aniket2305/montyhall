@@ -1,7 +1,8 @@
 import React from "react";
+import { IResult } from "../types";
 import { ProgressBar } from "./ProgressBar";
 
-export function ResultDisplay({ result }: { result: any }) {
+export function ResultDisplay({ result }: { result: IResult }) {
   const { noSwitchedDoor, switchedDoor } = result;
 
   return (
