@@ -18,9 +18,11 @@ To install dependency and build server
 
 `npm run build`
 
-To start client and server both
+After the build to start client and server both
 
 In the root directory run
+
+`npm install`
 
 `npm run dev`
 
